@@ -51,7 +51,7 @@ public class DriveTrain extends SubsystemBase{
         }
 
 
-        drivetrain.arcadeDrive(xSpeed, -zRotation);
+        drivetrain.arcadeDrive(xSpeed*0.5, -zRotation*0.5);
         drivetrain.feed();
     }
 
